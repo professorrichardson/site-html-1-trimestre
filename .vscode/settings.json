@@ -1,0 +1,10 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#5B1102",
+        "titleBar.activeBackground": "#801803",
+        "titleBar.activeForeground": "#FFFBFA",
+        "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true
+    }
+}
