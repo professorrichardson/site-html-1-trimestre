@@ -2,24 +2,25 @@
     margin: 0;
     padding: 0;
 }
-.body{
-    background-color:#00235B;
+body{
+    font-family: 'Abril Fatface', cursive;
+background: linear-gradient(#C7E2FF, #E2F7F3);
 }
 .cabecalho {
-    background-color: #E21818;    
-    color: white;
+    background-color: white;
+    color: rgb(58, 52, 52);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 25px 0 ;
 }
 
 .cabecalho-imagem{
-    width: 10%;
+    width: 5%;
     margin-left: 40px;
 }
 
-.cabecalho-item{
+.cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
@@ -27,28 +28,66 @@
     font-weight: bold;
     font-family: 'Abril Fatface', cursive;
 }
-.corpo{
+
+.container1-imagem{
+    width: 30%;
+}
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+}
+#container1{
     display: flex;
-    justify-content: space-around;
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
-.titulo{
-    color: white;
-    padding-left: 50px;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Abril Fatface', cursive;
+.container1-conteudo{
+    width: 35%;
 }
-.ge-imagem{
-    padding-top: 30px;
-    width: 44%;
+.container1-titulo{
+    margin-bottom: 24px;
 }
+
+#container2{
+    padding: 24px 0;
+}
+.container2-image{
+    width: 230px;
+}
+
+.container2-icone{
+    width: 24px;
+    padding: 4px 8px;
+
+}
+.container2-div{
+    text-align: center;
+    padding: 50px 0;
+}
+.container2-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+.container2-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+
 .footer{
     display: flex;
-    justify-content:flex-end;
-    align-items: end;
-    background-color: #E21818;
+    align-items: center;
+  justify-content: center;
+    background-color: #1D263B;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 25px 15px;
+    
 }
-.classroom-image{
-
+.footer a{
+    text-decoration: none; 
+    width: 50%;
+    color: rgb(238, 236, 236);
 }
